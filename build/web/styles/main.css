@@ -1,23 +1,53 @@
+header{
+    margin-top: 0px;
+    background: linear-gradient(45deg, blue, red );  
+}
+html { 
+  background-image: url(images/bats.gif); 
+
+  background-size: cover;
+}
 body {
+ background-image: url(images/bats.gif); 
+  
+  background-size: cover;
+  max-width: 800px;
  
+ 
+ 
+   border-style: solid;
+    border-width: 5px;
+  border-color: black;
+  box-shadow: 10px 10px 5px #888;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
   margin: 0 auto;
   width: 100%;
 }
+
 img{
     float:left
 }
 div{
+  
     font-size:120%;
     margin-left: 120px;
-       
+ 
 }
 
 h1{
-    text-shadow: 2px 2px 4px #000000;
-    color: orange
-   
+  margin-top:0px;
+  
+ 
+}
+.goblin{
+    margin-bottom: 0px;
+}
+.capital{
+    border-top: black;
+    border-top-width: 2px;
+    border-top-style: solid;
+    
 }
 .capital::first-letter {
   font-size:200%
@@ -33,7 +63,14 @@ a{
 a:hover{
     color:green
 }
+.guarantee{
+    margin-bottom: 10px;
+}
 footer{
+    
+     border-top: black;
+    border-top-width: 2px;
+    border-top-style: solid;
     text-align: center;
     font-size: 75%;
 }
