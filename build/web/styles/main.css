@@ -1,6 +1,12 @@
 header{
-    margin-top: 0px;
-    background: linear-gradient(45deg, blue, red );  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:orange;
+    background: linear-gradient(45deg,white, orange, black ); 
+    margin-bottom: 10px;
+     border-bottom: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
 }
 html { 
   background-image: url(images/bats.gif); 
@@ -8,13 +14,7 @@ html {
   background-size: cover;
 }
 body {
- background-image: url(images/bats.gif); 
-  
-  background-size: cover;
   max-width: 800px;
- 
- 
- 
    border-style: solid;
     border-width: 5px;
   border-color: black;
@@ -23,10 +23,12 @@ body {
   font-size: 100%;
   margin: 0 auto;
   width: 100%;
+ 
 }
 
 img{
-    float:left
+    float:left;
+  
 }
 div{
   
@@ -37,20 +39,27 @@ div{
 
 h1{
   margin-top:0px;
+  margin-bottom: 0px;
   
  
 }
 .goblin{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .capital{
-    border-top: black;
-    border-top-width: 2px;
-    border-top-style: solid;
-    
+   padding-left: 10px;
+    margin-bottom:0px;
 }
 .capital::first-letter {
   font-size:200%
+}
+p{
+    margin-top:0px;
+     padding-left: 10px
+}
+h2{
+    padding-left: 10px;
+        margin-bottom:0px;
 }
 li{
     
@@ -65,22 +74,28 @@ a:hover{
 }
 .guarantee{
     margin-bottom: 10px;
+    margin-top:0px;
+    padding-left: 10px
+}
+.copyright{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    paddding-top:20px;
 }
 footer{
-    
+     background: linear-gradient(45deg,black, orange, white ); 
+     background-color: orange;
      border-top: black;
     border-top-width: 2px;
     border-top-style: solid;
     text-align: center;
+    padding-top:10px;
+    
+
     font-size: 75%;
 }
 
 
 
 
-footer {
-  clear: both;
-  margin: 0 auto;
-  padding-top: .5em;
-  text-align: center;
-}
+
